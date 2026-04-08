@@ -1,0 +1,75 @@
+@media (max-width: 1140px){
+    .section-header .header-left nav{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+    .hero-content-box{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .business-section-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 928px){
+    .ostad-app-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 730px){
+    .section-header .container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 695px){
+    .pre-record-course-content h2{
+        font-size: 1.5rem;
+    }
+    .pre-record-course-content p{
+        font-size: 1.5rem;
+    }
+    .pre-course-btn a span{
+        display: none;
+    }
+}
+
+@media (max-width: 680px){
+    .center-text h3{
+        font-size: 2.5rem;
+    }
+    .center-text img{
+        width: 2rem;
+    }
+    .pre-record-section .container{
+        padding: 2rem 2rem;
+    }
+}
+
+@media (max-width: 570px){
+    .business-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .cta-section-box{
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+    .cta-box-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .cta-box-content img{
+        width: 100%;
+        height: auto;
+    }
+}
+
